@@ -599,13 +599,11 @@ main {
 
     &-slide {
       display: inline-block;
-      animation: 35s slide infinite linear;
+      animation: slide 35s infinite linear;
 
       @include respond(phone) {
-        animation: 15s slide infinite linear;
+        animation: slide 15s infinite linear;
       }
-
-
 
       img  {
         vertical-align: middle;
