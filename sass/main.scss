@@ -92,9 +92,6 @@ main {
     padding: 0 30px;
     width: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
 
     @include respond(tab-land) {
       gap: 30px;
@@ -750,7 +747,7 @@ main {
   }
 
   .response__review {
-    width: 420px;
+    width: 450px;
     border-radius: 20px;
     border: 2px solid #494D51;
     display: flex;
@@ -774,9 +771,6 @@ main {
     @include respond(phone) {
       padding: 10px 13px 9px;
     }
-
-
-
   }
 
   .response__message {
@@ -789,8 +783,6 @@ main {
     @include respond(tab-land) {
       font-size: 14px;
     }
-
-
   }
 
   .response__client-container {
@@ -821,6 +813,5 @@ main {
       font-size: 12px;
     }
   }
-
 }
 
