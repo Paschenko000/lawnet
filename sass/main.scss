@@ -129,27 +129,6 @@ a {
       font-size: 25px;
     }
   }
-
-  &__paragraph {
-    font-size: 25px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.375px;
-    color: #FFF;
-
-    @include respond(tab-land) {
-      font-size: 22px;
-    }
-
-    @include respond(tab-port) {
-      font-size: 19px;
-    }
-
-    @include respond(phone) {
-      font-size: 16px;
-    }
-
-  }
 }
 
 .intro {
@@ -719,14 +698,14 @@ a {
     }
 
     .logo__ykx {
-      max-width: 256px;
+      max-width: 296px;
 
       @include respond(tab-land) {
-        max-width: 204.8px;
+        max-width: 236.8px;
       }
 
       @include respond(phone) {
-        max-width: 153.6px;
+        max-width: 177.6px;
       }
     }
   }
